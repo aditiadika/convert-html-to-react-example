@@ -1,11 +1,10 @@
 import React from 'react';
-
-import Button from 'elements/Button';
+import Header from 'parts/Header';
 
 function HomePage() {
 	return (
 		<div>
-			<Button />
+			<Header />
 		</div>
 	);
 }
