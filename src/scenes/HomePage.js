@@ -14,6 +14,8 @@ import Feature1 from "assets/images/feature-tile-icon-01.svg";
 import Feature2 from "assets/images/feature-tile-icon-02.svg";
 import Feature3 from "assets/images/feature-tile-icon-03.svg";
 
+import Footer from "../parts/Footer";
+
 function HomePage() {
   const features = [
     {
@@ -232,6 +234,7 @@ function HomePage() {
           </div>
         </Section>
       </main>
+      <Footer />
     </div>
   );
 }
